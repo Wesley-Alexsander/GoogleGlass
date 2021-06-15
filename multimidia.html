@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial- scale=1.0">
+    <title>Google Glass fotos</title>
+    <link rel="StyleSheet" href="./_css/estilo.css">
+    <link rel="stylesheet" href="./_css/media.css">
+
+    <script src="./_javascript/funcoes.js"></script>
+
+</head>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+
+            <img id="icon" src=".//_imagens/multimidia.png" alt="Glass Oculos preto pequeno">
+
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>
+
+                    <li onmouseover="mudarFoto('_imagens/home.png')" onmouseout="mudarFoto('_imagens/multimidia.png')">
+                        <a href="./index.html">Home</a></li>
+                    <li onmouseover="mudarFoto('_imagens/especificacoes.png')"
+                        onmouseout="mudarFoto('_imagens/multimidia.png')"><a href="./specs.html">Especificações</a></li>
+                    <li onmouseover="mudarFoto('_imagens/fotos.png')" onmouseout="mudarFoto('_imagens/multimidia.png')">
+                        <a href="./fotos.html">Fotos</a></li>
+                    <li onmouseover="mudarFoto('_imagens/multimidia.png')"
+                        onmouseout="mudarFoto('_imagens/multimidia.png')"><a href="./multimidia.html">Multimídia</a>
+                    </li>
+                    <li onmouseover="mudarFoto('_imagens/contato.png')"
+                        onmouseout="mudarFoto('_imagens/multimidia.png')"><a href="./fale-conosco.html">Fale conosco</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <section id="section-body-spec">
+            <article id="main-noticia">
+                <header id="cabecalho-artigo">
+                    <h3>Glass > Multimídia</h3>
+                    <h1>Sons e Vídeos</h1>
+                    <h2>Gustavo Guanabara</h2>
+                    <h3 id="atualização-data">Atualizado em 01/Maio/2013</h3>
+                </header>
+
+
+                <h1>Áudio e Vídeo</h1>
+
+                <div id="tv-radio">
+                    <audio src="./_media/2009-lovers-carvings-bibio.mp3" id="musica" type="audio/mpeg" controls="controls"></audio>
+                   <!-- Tipos de Arquivos: Type =
+                       <audio src="./_media/2009-lovers-carvings-bibio.mp3" id="musica" type="audio/x-aac" controls="controls"></audio>
+                    <audio src="./_media/2009-lovers-carvings-bibio.mp3" id="musica" type="audio/ogg" controls="controls"></audio>
+                   -->
+                    
+                    
+                    <video src="./_media/getting-started.mp4" id="filme" type="video/mp4" controls="controls" poster="./_imagens/video-mini03.jpg"></video>
+
+                    <!--Tipos de arquivos: Type =
+                    <video src="./_media/getting-started.mp4" id="filme" type="video/webm" controls="controls" poster="./_imagens/video-mini03.jpg"></video>
+                    <video src="./_media/getting-started.mp4" id="filme" type="video/ogg" controls="controls" poster="./_imagens/video-mini03.jpg"></video>
+                    -->
+                    
+                </div>
+
+
+            </article>
+        </section>
+
+        <footer id="footer">
+
+            <p>Copyright 2021 - by Wesley Alexsander
+                <a href="https://www.linkedin.com/in/wesley-alexsander-62683820b/">Linkedin</a> |
+                <a href="https://github.com/Wesley-Alexsander?tab=repositories">GitHub</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+#content-spec {
+    width: 1000px;
+    margin: auto;
+    
+}
+
+iframe#janela-spec {
+    width: 495px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+    
+}
+

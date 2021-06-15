@@ -1,0 +1,63 @@
+
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    outline: none;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+input:hover, textarea:hover {
+    background-color: rgba(221, 221, 221, .4);
+} 
+
+legend {
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+fieldset {
+    border-color: #cecece;
+    margin: 20px;
+}
+
+fieldset#sexo {
+    width: 210px;
+}
+fieldset#date {
+    width: 200px;
+}
+
+fieldset#usuario {
+    background: url(../_imagens/icone-endereco.png) no-repeat 95% 95%;
+}
+fieldset#mensagem {
+    background: url(../_imagens/icone-mensagem.png) no-repeat 95% 95%;
+}
+fieldset#pedido {
+    background: url(../_imagens/icone-pagamento.png) no-repeat 95% 95%;
+}
+fieldset#usuario {
+    background: url(../_imagens/icone-contato.png) no-repeat 95% 95%;
+}
+
+
+[type="submit"] {
+    border-radius: 20px;
+    width: 50%;
+    margin:20px 25%;
+    color: white;
+    background-color: #888888;
+} 
+
+[type="submit"]:hover {
+    background-color: #5a5a5a;
+} 
